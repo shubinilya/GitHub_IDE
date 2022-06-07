@@ -25,7 +25,7 @@ def score_game(random_predict) -> int:
         random_predict ([type]): функция угадывания
 
     Returns:
-        int: среднее количество попыток
+        int: среднее количество попыток +
     """
 
     count_ls = [] # список для сохранения количества попыток
