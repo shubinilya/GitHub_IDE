@@ -10,6 +10,7 @@
 ​
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
+
 ​
 :arrow_up:[к оглавлению](_)
 
@@ -32,20 +33,21 @@
 ### Краткая информация о данных
 ....
 
-  
+Информация
+
 :arrow_up:[к оглавлению](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_0/README.md#Оглавление)
 ​
 ​
 ### Этапы работы над проектом  
 
-....
-​
+Этапы
+
 :arrow_up:[к оглавлению](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_0/README.md#Оглавление)
 ​
 ​
 ### Результаты:  
 
-....
+Результат
 
 ​
 :arrow_up:[к оглавлению](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_0/README.md#Оглавление)
@@ -53,8 +55,8 @@
 ​
 ### Выводы:  
 
-....
-​
+Вывод 
+
 :arrow_up:[к оглавлению](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_0/README.md#Оглавление)
 
 ​
