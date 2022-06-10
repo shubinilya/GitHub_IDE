@@ -1,12 +1,12 @@
 # Проект 0. Угадай число
 
 ## Оглавление  
-[1. Описание проекта](.README.md#Описание-проекта)  
-[2. Какой кейс решаем?](.README.md#Какой-кейс-решаем)  
-[3. Краткая информация о данных](.README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](.README.md#Этапы-работы-над-проектом)  
-[5. Результат](.README.md#Результат)    
-[6. Выводы](.README.md#Выводы) 
+[1. Описание проекта](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Описание-проекта)  
+[2. Какой кейс решаем?](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Какой-кейс-решаем)  
+[3. Краткая информация о данных](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Краткая-информация-о-данных)  
+[4. Этапы работы над проектом](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Этапы-работы-над-проектом)  
+[5. Результат](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Результат)    
+[6. Выводы](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Выводы) 
 
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
@@ -35,19 +35,22 @@
 
 
 ### Этапы работы над проектом  
-....
+Написание кода в локальном IDE
+Оформление работы
+Выгрузка на GitHub
 
 :arrow_up:[к оглавлению](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Оглавление)
 
 
 ### Результаты:  
-....
+Создан свой проект на GitHub
 
 :arrow_up:[к оглавлению](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Оглавление)
 
 
 ### Выводы:  
-....
+GitHub помогает организовать свой проект
+Необходима хорошая документация для совметной работы
 
 :arrow_up:[к оглавлению](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Оглавление)
 
