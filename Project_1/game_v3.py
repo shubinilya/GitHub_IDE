@@ -34,7 +34,7 @@ def approx_predict(number: int = 1) -> int:
     return count
 
 
-def score_game(approx_predict) -> int:
+def score_game3(approx_predict) -> int:
     """За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
 
     Args:
@@ -52,8 +52,8 @@ def score_game(approx_predict) -> int:
         count_ls.append(approx_predict(number))
 
     score = int(np.mean(count_ls))
-    print(f"Ваш алгоритм угадывает число в среднем за:{score} попыток")
-    print(count_ls)
+    print(f"ваш алгоритм угадывает число в среднем за: {score} попыток")
+    print("__________________")
     return score
 
 
