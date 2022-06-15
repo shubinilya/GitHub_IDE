@@ -11,11 +11,22 @@ def random_predict(number:int=1) -> int:
     """
     count = 0
 
+    min_number = 1
+    max_number = 100
+    
     while True:
         count += 1
-        predict_number = np.random.randint(1, 101) # предполагаемое число
+        
+        predict_number = np.random.randint(min_number, max_number+1)  # произвольное предполагаемое число в диапазоне
+        
         if number == predict_number:
-            break # выход из цикла, если угадали
+            break  # выход из цикла если угадали
+        else:
+            # меняем диапазон поиска
+            if predict_number < number:
+                min_number = predict_number
+            else:
+                max_number = predict_number
     return count
 
 def score_game(random_predict) -> int:
