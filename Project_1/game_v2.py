@@ -4,7 +4,7 @@ import numpy as np
 Компьютер сам загадывает и сам угадывает число методом последовательного приближения
 """
 
-def random_predict(number:int=1) -> int:
+def approx_predict(number:int=1) -> int:
     """Методом последовательного приближения угадываем число
 
     Args:
@@ -33,7 +33,7 @@ def random_predict(number:int=1) -> int:
                 max_number = predict_number
     return count
 
-def score_game(random_predict) -> int:
+def score_game(approx_predict) -> int:
     """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
 
     Args:
@@ -49,7 +49,7 @@ def score_game(random_predict) -> int:
     #print(random_array)
 
     for number in random_array:
-        count_ls.append(random_predict(number))
+        count_ls.append(approx_predict(number))
 
     score = int(np.mean(count_ls)) # находим среднее количество попыток
 
@@ -59,4 +59,4 @@ def score_game(random_predict) -> int:
 # RUN
 # score_game(random_predict)
 if __name__ == '__main__':
-    print(f'Ваш алгоритм угадывает число в среднем за: {score_game(random_predict)} попыток')
+    print(f'Ваш алгоритм угадывает число в среднем за: {score_game(approx_predict)} попыток')
