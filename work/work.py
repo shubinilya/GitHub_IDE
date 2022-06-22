@@ -1,4 +1,7 @@
 import numpy as np
-arr, step = np.linspace(-6, 21, 60, endpoint=False, retstep=True)
-print(step)
-print(arr)
+vec = np.array([3, 4])
+
+vec = np.array(mystery)
+vec.min()
+
+print(vec.)
