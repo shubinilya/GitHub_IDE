@@ -1,3 +1,82 @@
+﻿Задание 7.5 ______________________________________
+
+import pandas as pd
+
+items_df = pd.DataFrame({
+'item_id': [417283, 849734, 132223, 573943, 19475, 3294095, 382043, 302948, 100132, 312394], 
+'vendor': ['Samsung', 'LG', 'Apple', 'Apple', 'LG', 'Apple', 'Samsung', 'Samsung', 'LG', 'ZTE'],
+'stock_count': [54, 33, 122, 18, 102, 43, 77, 143, 60, 19]
+})
+
+purchase_df = pd.DataFrame({
+    'purchase_id': [101, 101, 101, 112, 121, 145, 145, 145, 145, 221],
+    'item_id': [417283, 849734, 132223, 573943, 19475, 3294095, 382043, 302948, 103845, 100132], 
+    'price': [13900, 5330, 38200, 49990, 9890, 33000, 67500, 34500, 89900, 11400]
+})
+"""
+Сформируйте DataFrame merged, в котором в результате объединения
+purchase_df и items_df останутся модели, которые учтены на складе и имели продажи. 
+"""
+merged = items_df.merge(purchase_df,on ='item_id', how ='inner')
+"""
+Найдите из таблицы merged суммарную выручку, которую можно было бы получить 
+от продажи всех товаров, которые есть на складе. 
+Результат занесите в переменную income.
+"""
+merged['total'] = merged['price']*merged['stock_count']
+income = merged['total'].sum()
+
+Задание 3.5 ____________________________________
+
+import pandas as pd
+
+def create_companyDF(income, expenses, years):
+ 
+    df = pd.DataFrame({'Income':income, 'Expenses':expenses},index = years)
+    #print(df)
+    return df
+
+def get_profit(df, year):
+    if year in df.index:
+        profit = df.loc[year,'Income']-df.loc[year,'Expenses']
+    else: 
+        return None
+    return profit
+
+if __name__ == '__main__':
+    expenses = [156, 130, 270]
+    income = [478, 512, 196]
+    years = [2018, 2019, 2020]
+    
+    scienceyou = create_companyDF(income, expenses, years)
+    print(get_profit(scienceyou, 2020)) #-74
+
+
+Задание 2.4 _____________________________
+
+import pandas as pd
+
+def create_medications(names, counts):
+    medications = pd.Series(index = names, data = counts)
+    #print(medications)
+    return medications
+   
+
+def get_percent(medications, name):
+    all_count = 0
+    for count in medications:
+        print(count)
+        all_count += count
+    print(medications.loc[name],all_count)
+    return medications.loc[name]/all_count*100
+
+
+if __name__ == '__main__':
+    names=['chlorhexidine', 'cyntomycin', 'afobazol']
+    counts=[15, 18, 7]
+    medications = create_medications(names, counts)
+    print(get_percent(medications, "chlorhexidine")) #37.5
+
 ������� 10.11 ____________________________
 
 
