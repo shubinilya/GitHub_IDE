@@ -1,12 +1,12 @@
 # Project 1. Анализ базы данных hh.ru
 
 ## Оглавление  
-[1. Описание проекта](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Описание-проекта)  
-[2. Исследование структуры данных](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Какой-кейс-решаем)  
-[3. Преобразование данных](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Краткая-информация-о-данных)  
-[4. Исследование зависимостей в данных](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Этапы-работы-над-проектом)  
-[5. Очистка данных](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Результат)    
-[6. Результаты](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Выводы) 
+[1. Описание проекта](https://github.com/shubinilya/GitHub_IDE/tree/main/Project%201.%20Анализ%20базы%20данных%20hh.ru#описание-проекта)  
+[2. Исследование структуры данных](https://github.com/shubinilya/GitHub_IDE/tree/main/Project%201.%20Анализ%20базы%20данных%20hh.ru#исследование-структуры-данных)  
+[3. Преобразование данных](https://github.com/shubinilya/GitHub_IDE/tree/main/Project%201.%20Анализ%20базы%20данных%20hh.ru#преобразование-данных)  
+[4. Исследование зависимостей в данных](https://github.com/shubinilya/GitHub_IDE/tree/main/Project%201.%20Анализ%20базы%20данных%20hh.ru#исследование-зависимостей-в-данных)  
+[5. Очистка данных](https://github.com/shubinilya/GitHub_IDE/tree/main/Project%201.%20Анализ%20базы%20данных%20hh.ru#очистка-данных)    
+[6. Результаты](https://github.com/shubinilya/GitHub_IDE/tree/main/Project%201.%20Анализ%20базы%20данных%20hh.ru#результаты) 
 
 ### Описание проекта    
 Компания HeadHunter хочет построить модель, которая бы автоматически определяла примерный уровень заработной платы, подходящей пользователю, исходя из информации, которую он указал о себе. Но, как вы знаете, прежде чем построить модель, данные необходимо преобразовать, исследовать и очистить. 
@@ -42,5 +42,5 @@
 База занных была преобразована к нужому нам виду, данные были очищены.
 Результирующая база данных [Graphs](https://github.com/shubinilya/GitHub_IDE/tree/main/Project%201.%20Анализ%20базы%20данных%20hh.ru/Graphs)
 
-:arrow_up:[к оглавлению](https://github.com/shubinilya/GitHub_IDE/tree/main/Project_1/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/shubinilya/GitHub_IDE/tree/main/Project%201.%20Анализ%20базы%20данных%20hh.ru#project-1-анализ-базы-данных-hhru)
 
